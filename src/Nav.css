@@ -1,0 +1,11 @@
+#nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: lightcoral;
+    gap: 200px;
+    height: 80px;
+    font-size: 100px;
+    
+    
+}
