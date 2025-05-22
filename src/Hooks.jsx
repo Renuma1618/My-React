@@ -125,18 +125,22 @@
 
 
 
-import React, { useState } from 'react'
+// import React, { useState } from 'react'
 
-function Hooks(){
-    var [bgcolor, setbgcolor] =useState("ornge")
-    console.log(bgcolor)
+// function Hooks(){
+//     var [bgcolor, setbgcolor] =useState("ornge")
+//     console.log(bgcolor)
     
 
-    return(
-        <div>
-            <h1>the bagclor with {bgcolor}</h1>
-            <button onClick={()=>{(bgcolor==("blue"))?setbgcolor("red"):setbgcolor("yellow")}}>click to change</button>
-        </div>
-    )
-}
-export default Hooks;
+//     return(
+//         <div>
+//             <h1>the bagclor with {bgcolor}</h1>
+//             <button onClick={()=>{(bgcolor==("blue"))?setbgcolor("red"):setbgcolor("yellow")}}>click to change</button>
+//         </div>
+//     )
+// }
+// export default Hooks;
+
+
+
+
