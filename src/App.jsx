@@ -1,13 +1,19 @@
 import React from 'react';
 
-import Useref from './Useref';
+
+import ComponentA from './ComponentA';
+import ComponentB from './ComponentB';
+import ComponentC from './ComponentC';
+import ComponentD from './ComponentD';
 
 
 function App(){
     return(
       <div>
-      <Useref/>
-       
+        <ComponentA/>
+        <ComponentB/>
+        <ComponentC/>
+        <ComponentD/>
       </div>
     )
 }

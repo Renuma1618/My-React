@@ -144,3 +144,18 @@
 
 
 
+import React, { useState } from 'react'
+
+function Hooks(){
+    var[color,bgcolor] =useState("red")
+    function change(){
+        bgcolor("blue")
+    }
+    return(
+        <div>
+            <h1>i am {color}</h1>
+            <button onClick={change}>click to chnage</button>
+        </div>
+    )
+}
+export default Hooks
